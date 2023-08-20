@@ -1,6 +1,6 @@
 @font-face {
-    font-family: 'Cera Round Pro';
-    src: local('CeraRoundPro-Medium.otf'),
+    font-family: 'Cera Round Pro Medium';
+    src: local('Cera Round Pro'),
     url(CeraRoundPro-Medium.otf);
 }
 body{
