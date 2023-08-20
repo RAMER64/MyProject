@@ -1,0 +1,42 @@
+@media (max-width:700px){
+    .bodyNavigationBox , .tel{
+        display: none;
+    }
+    .headNavigationBox{
+        justify-content: center;
+        position: fixed;
+        background-color: rgb(27, 27, 27);
+        box-shadow: 0 10px 40px 0 rebeccapurple;
+        width: 100%;
+        z-index: 100;
+        font-size: 0px;
+    }
+    .headNavigationBox > h1{
+        font-size: 40px;
+    }
+    .infoBox{
+        margin-top: 100px;
+    }
+    .Card > p{
+        font-size: 15px;
+    }
+    .numCard{
+        width: 90px;
+        height: 90px;
+    }
+    .mragnPhoneSize{
+        margin-top: 20px;
+    }
+    .spanLineMargn{
+        margin-top: -70px;
+    }
+    .spanRadius{
+        border: 2px solid rgb(140, 0, 255);
+        border-radius: 10px;
+    }
+}
+@media (min-width:700px){
+    .menuButton{
+        display: none;
+    }
+}
