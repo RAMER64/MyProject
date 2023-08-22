@@ -4,7 +4,7 @@
     url(CeraRoundPro-Medium.otf);
 }
 body{
-    font-family: 'Cera Round Pro';
+    font-family: Cera Round Pro;
     margin: 0;
     background-color: rgb(70, 70, 70);
 }
@@ -36,7 +36,7 @@ body{
     display: flex;
     justify-content: space-between;
 }
-.headNavigationBox  a{
+.headNavigationBox > .tel{
     color: white;
     text-decoration: none;
     text-align: center;
@@ -210,6 +210,7 @@ body{
     height: 150px;
     user-select: none;
     border: 2px solid rgb(128, 0, 255);
+    color: rgb(43, 43, 43);
     border-radius: 100%;
     display: grid;
     place-items: center;
@@ -234,6 +235,7 @@ body{
     100%{
         background-color: rgb(128, 0, 255);
     box-shadow:  0 0px 15px 5px rebeccapurple;
+    color: white;
     }
 }
 .animCard_2{
@@ -251,6 +253,7 @@ body{
     100%{
         background-color: rgb(128, 0, 255);
     box-shadow:  0 0px 15px 5px rebeccapurple;
+    color: white;
     }
 }
 .animCard_3{
@@ -268,5 +271,10 @@ body{
     100%{
         background-color: rgb(128, 0, 255);
     box-shadow:  0 0px 15px 5px rebeccapurple;
+    color: white;
     }
+}
+.hide{
+    visibility:hidden;
+    opacity:0;
 }
