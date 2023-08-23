@@ -32,6 +32,7 @@
     height: 0;
 }
 .closeButtonMenu {
+    -webkit-tap-highlight-color: transparent;
     margin-right: -5px;
     margin-top: -5px;
     background-color: black;
@@ -52,10 +53,14 @@
     transform: rotate(-45deg);
 }
 .closeButtonMenu > span{
-    border-radius: 100%;
+    background-color: white;
+    border-radius: 50px;
     position: absolute;
     width: 13px;
     border: 1px solid white;
+}
+a.closeButtonMenu:hover{
+    background-color: rgb(128, 0, 255);
 }
 .hide{
     transition: 0.5s;

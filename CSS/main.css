@@ -17,6 +17,10 @@ body{
     height: 67px;
 }
 .menuButton a{
+    -webkit-tap-highlight-color: transparent; /* Убирает подсветку у ссылок */
+    user-select: none;
+    text-decoration: none;
+    outline: none;
     margin-left: 5px;
     height: 67px;
     width: 100%;
