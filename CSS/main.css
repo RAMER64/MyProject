@@ -47,7 +47,7 @@ body{
     font-size: 20px;
     margin-right: 10px;
 }
-.headNavigationBox h1{
+.headNavigationBox > h1{
     font-size: 50px;
     margin-block: 5px ;
     margin-left: 12px;
