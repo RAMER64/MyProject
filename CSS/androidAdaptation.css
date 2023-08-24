@@ -12,7 +12,7 @@
         font-size: 0px;
     }
     .headNavigationBox > h1{
-        font-size: 40px;
+        font-size: 35px;
     }
     .infoBox{
         margin-top: 100px;
@@ -38,5 +38,11 @@
 @media (min-width:700px){
     .menuButton{
         display: none;
+    }
+    .menuBlackBackground{
+        display: none;
+    }
+    .body{
+        display: block;
     }
 }
