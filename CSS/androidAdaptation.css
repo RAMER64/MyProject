@@ -13,6 +13,7 @@
     }
     .headNavigationBox > h1{
         font-size: 35px;
+        margin-left: 0px;
     }
     .infoBox{
         margin-top: 100px;
