@@ -49,8 +49,7 @@ body{
 }
 .headNavigationBox > h1{
     font-size: 50px;
-    margin-block: 5px ;
-    margin-left: 12px;
+    margin-block: 10px;
 }
 .navigationMainBox{
     user-select: none;
