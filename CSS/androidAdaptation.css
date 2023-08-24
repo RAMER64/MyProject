@@ -45,4 +45,7 @@
     .body{
         display: block;
     }
+    .switchBox{
+        margin-right: 200px;
+    }
 }
