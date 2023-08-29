@@ -7,6 +7,7 @@ body{
     font-family: Cera Round Pro;
     margin: 0;
     background-color: rgb(70, 70, 70);
+    transition: 0.2s;
 }
 .menuButton{
     left: 0;
@@ -46,6 +47,9 @@ body{
     text-align: center;
     font-size: 20px;
     margin-right: 10px;
+}
+.headNavigationBox > .tel:hover{
+    text-decoration: underline;
 }
 .headNavigationBox > h1{
     font-size: 50px;
