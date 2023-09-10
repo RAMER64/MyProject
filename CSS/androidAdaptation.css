@@ -11,11 +11,23 @@
         z-index: 100;
         font-size: 0px;
     }
+    .headNavigationBoxLight{
+        justify-content: center;
+        position: fixed;
+        background-color: rgb(202, 202, 202);
+        box-shadow: 0px 0px 20px 0px rgb(0, 0, 0);
+        width: 100%;
+        z-index: 100;
+        font-size: 0px;
+    }
     .headNavigationBox > h1{
         font-size: 35px;
         margin-left: 0px;
     }
     .infoBox{
+        margin-top: 100px;
+    }
+    .discriptionElementWindow{
         margin-top: 100px;
     }
     .Card > p{
@@ -33,6 +45,10 @@
     }
     .spanRadius{
         border: 2px solid rgb(140, 0, 255);
+        border-radius: 10px;
+    }
+    .spanBorder{
+        border: 2px solid rgb(0, 0, 0);
         border-radius: 10px;
     }
 }

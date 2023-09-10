@@ -57,6 +57,7 @@ body{
     margin-left: 25px;
 }
 .navigationMainBox{
+    transition: 0.2s;
     user-select: none;
     color: white;
     background-color: rgb(27, 27, 27);
@@ -75,7 +76,12 @@ body{
     font-size: 20px;
     margin: 0;
 }
-.bodyNavigationBox button{
+
+.AButtons:hover{
+    box-shadow: inset 0 -60px 50px 0 rebeccapurple;
+}
+.mainButtons > .AButtons{
+    -webkit-tap-highlight-color: transparent;
     font-family: Cera Round Pro;
     width: 130px;
     cursor: pointer;
@@ -84,12 +90,9 @@ body{
     background: rgb(27, 27, 27);
     padding: 15px;
     color: white;
-    transition: 0.5s;
+    transition: 0.2s;
     text-align: center;
     text-decoration: none;
-}
-.bodyNavigationBox button:hover{
-    box-shadow: inset 0 -60px 50px 0 rebeccapurple;
 }
 .contactsIcons{
     transition: 0.5s;
@@ -132,6 +135,7 @@ body{
 }
 
 .infoBox{
+    transition: 0.2s;
     box-shadow:  0 0px 100px 0 rebeccapurple;
     color: white;
     padding: 10px;
@@ -156,6 +160,7 @@ body{
 }
 
 .headPhoto{
+    transition: 0.2s;
     box-shadow:  0 0px 100px 0 rebeccapurple;
     overflow: hidden;
     border-radius: 100%;
