@@ -12,6 +12,17 @@ document.addEventListener("DOMContentLoaded", function () {
   let headNavigationBoxLight = document.querySelector('.headNavigationBox');
   let spanLineBlack = document.querySelectorAll('.spanLine');
   let spanBorder = document.querySelectorAll('.spanRadius');
+  let telLight = document.querySelector('.tel');
+  let windowMenuLight = document.querySelector('.windowMenu');
+  let closeButtonMenuLight = document.querySelector('.closeButtonMenu');
+  let buttonNavigationLight = document.querySelector('.buttonNavigation');
+  let StarLight = document.querySelector('.Star');
+  let numCardLight = document.querySelectorAll('.numCard');
+  //====================================================| ANIMATED OBJECTS
+  let animCardLight_1 = document.querySelector('.animCard_1');
+  let animCardLight_2 = document.querySelector('.animCard_2');
+  let animCardLight_3 = document.querySelector('.animCard_3');
+//====================================================| ANIMATED OBJECTS
 
   // Получаем текущую тему из локального хранилища
   const currentTheme = localStorage.getItem("theme");
@@ -34,9 +45,27 @@ document.addEventListener("DOMContentLoaded", function () {
     switchButton.classList.toggle("switchON"); // Переключаем класс .switchON
     switchButtonBox.classList.toggle("switchBoxON"); // Переключаем класс .switchBoxON
     body.classList.toggle("bodyLight"); // Переключаем класс .bodyLight
+    photoBox.classList.toggle("headPhoto"); // Переключаем класс .headPhoto
+    photoBox.classList.toggle("headPhotoLight"); // Переключаем класс .headPhotoLight
     lightMainBox.classList.toggle("navigationMainBox");
     lightMainBox.classList.toggle("lightMainBox");
     headNavigationBoxLight.classList.toggle("headNavigationBoxLight");
+    telLight.classList.toggle("tel");
+    telLight.classList.toggle("telLight");
+    windowMenuLight.classList.toggle("windowMenu");
+    windowMenuLight.classList.toggle("windowMenuLight");
+    closeButtonMenuLight.classList.toggle("closeButtonMenuLight");
+    buttonNavigationLight.classList.toggle("buttonNavigationLight");
+    StarLight.classList.toggle("Star");
+    StarLight.classList.toggle("StarLight");
+    //====================================================| ANIMATED OBJECTS
+    animCardLight_1.classList.toggle("animCard_1");
+    animCardLight_1.classList.toggle("animCardLight_1");
+    animCardLight_2.classList.toggle("animCard_2");
+    animCardLight_2.classList.toggle("animCardLight_2");
+    animCardLight_3.classList.toggle("animCard_3");
+    animCardLight_3.classList.toggle("animCardLight_3");
+    //====================================================| ANIMATED OBJECTS
     
     // Переключаем классы для всех контейнеров .infoBox
     discriptionBoxes.forEach(function(box) {
@@ -55,9 +84,10 @@ document.addEventListener("DOMContentLoaded", function () {
     spanBorder.forEach(function(spanBorder){
       spanBorder.classList.toggle("spanBorder");
     });
+    numCardLight.forEach(function(numCardLight){
+      numCardLight.classList.toggle("numCardLight");
+      numCardLight.classList.toggle("numCard");
+    });
 
-    // Переключаем классы для контейнера с фотографией
-    photoBox.classList.toggle("headPhoto"); // Переключаем класс .headPhoto
-    photoBox.classList.toggle("headPhotoLight"); // Переключаем класс .headPhotoLight
   }
 });
