@@ -95,3 +95,163 @@
     width: 100%;
     border: 2px solid rgb(0, 0, 0);
 }
+
+.telLight{
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.telLight:hover{
+    text-decoration: underline;
+}
+
+.windowMenuLight{
+    min-height: 400px;
+    transition: 0.5s;
+    box-shadow: 0 0 20px 5px rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    background-color: rgb(202, 202, 202);
+    height: 60%;
+    width: 300px;
+    margin-top: -20px;
+}
+
+.closeButtonMenuLight{
+    -webkit-tap-highlight-color: transparent;
+    margin-right: -5px;
+    margin-top: -5px;
+    background-color: rgb(202, 202, 202);
+    cursor: pointer;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 100%;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.closeButtonMenuLight > span{
+    background-color: rgb(0, 0, 0);
+    border-radius: 50px;
+    position: absolute;
+    width: 13px;
+    border: 1px solid rgb(0, 0, 0);
+}
+.closeButtonMenuLight:hover > span{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+}
+a.closeButtonMenuLight:hover{
+    background-color: black;
+}
+
+.buttonNavigationLight a {
+    -webkit-tap-highlight-color: transparent;
+    margin: 10px;
+    text-align: center;
+    height: 50px;
+    width: 100%;
+    text-decoration: none;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttonNavigationLight a:hover {
+    background-color: rgb(0, 0, 0);
+}
+
+.StarLight{
+    transition: 0.5s;
+    font-size: 280px;
+    color:rgb(202, 202, 202);
+    filter: drop-shadow(0px 0px 5px rgb(0, 0, 0));
+}
+.StarLight:hover{
+    color: rgb(0, 0, 0);
+}
+
+.numCardLight{
+    transition: 0.5s;
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    user-select: none;
+    border: 2px solid rgb(0, 0, 0);
+    color: rgb(202, 202, 202);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.numCardLight h2 {
+    font-size: 60px;
+    position: absolute;
+    margin: 0;
+}
+
+.animCardLight_1{
+    animation-name: AnimateCardLight_1;
+    animation-duration: 3s;
+    animation-iteration-count:infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction:alternate;
+    animation-delay: 0s;
+}
+@keyframes  AnimateCardLight_1{
+    0%{
+        
+    }
+    100%{
+        background-color: rgb(202, 202, 202);
+    box-shadow:  0 0px 15px 5px rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    }
+}
+
+.animCardLight_2{
+    animation-name: AnimateCardLight_2;
+    animation-duration: 3s;
+    animation-iteration-count:infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction:alternate;
+    animation-delay: 1s;
+}
+@keyframes  AnimateCardLight_2{
+    0%{
+        
+    }
+    100%{
+        background-color: rgb(202, 202, 202);
+    box-shadow:  0 0px 15px 5px rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    }
+}
+
+.animCardLight_3{
+    animation-name: AnimateCardLight_3;
+    animation-duration: 3s;
+    animation-iteration-count:infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction:alternate;
+    animation-delay: 2s;
+}
+@keyframes  AnimateCardLight_3{
+    0%{
+        
+    }
+    100%{
+        background-color: rgb(202, 202, 202);
+    box-shadow:  0 0px 15px 5px rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    }
+}

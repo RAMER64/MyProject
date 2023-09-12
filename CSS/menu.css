@@ -103,5 +103,6 @@ a.closeButtonMenu:hover{
     align-items: center;
 }
 .buttonNavigation a:hover{
+    color: white;
     background-color: rgb(128, 0, 255);
 }
