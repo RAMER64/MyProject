@@ -295,7 +295,7 @@ body{
     visibility:hidden;
     opacity:0;
 }
-.infoDiscription > a{
+.URLMenuButton{
     -webkit-tap-highlight-color: transparent;
     text-align: center;
     height: 50px;
