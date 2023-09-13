@@ -295,3 +295,19 @@ body{
     visibility:hidden;
     opacity:0;
 }
+.infoDiscription > a{
+    -webkit-tap-highlight-color: transparent;
+    text-align: center;
+    height: 50px;
+    width: 100%;
+    text-decoration: none;
+    border-radius: 10px;
+    border: 2px solid rgb(128, 0, 255);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.URLMenuButton:hover{
+    background-color: rgb(128, 0, 255);
+}
