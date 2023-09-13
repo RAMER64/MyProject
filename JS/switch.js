@@ -22,7 +22,8 @@ document.addEventListener("DOMContentLoaded", function () {
   let animCardLight_1 = document.querySelector('.animCard_1');
   let animCardLight_2 = document.querySelector('.animCard_2');
   let animCardLight_3 = document.querySelector('.animCard_3');
-//====================================================| ANIMATED OBJECTS
+  //====================================================| ANIMATED OBJECTS
+  let URLMenuButtonLight = document.querySelector('.URLMenuButton');
 
   // Получаем текущую тему из локального хранилища
   const currentTheme = localStorage.getItem("theme");
@@ -66,6 +67,8 @@ document.addEventListener("DOMContentLoaded", function () {
     animCardLight_3.classList.toggle("animCard_3");
     animCardLight_3.classList.toggle("animCardLight_3");
     //====================================================| ANIMATED OBJECTS
+    URLMenuButtonLight.classList.toggle("URLMenuButton");
+    URLMenuButtonLight.classList.toggle("URLMenuButtonLight");
     
     // Переключаем классы для всех контейнеров .infoBox
     discriptionBoxes.forEach(function(box) {
