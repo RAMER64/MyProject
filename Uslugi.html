@@ -10,7 +10,9 @@
     <link rel="stylesheet" href="CSS/menu.css">
     <link rel="stylesheet" href="CSS/switch.css">
     <link rel="stylesheet" href="CSS/uslugi.css">
+    <link rel="stylesheet" href="CSS/discriptionPrice.css">
     <script src="fontawesome-free-6.4.0-web/js/all.js"></script>
+    <script src="JS/modalDiscription.js"></script>
     <link rel="stylesheet" href="CSS/main.css">
     <link rel="stylesheet" href="CSS/androidAdaptation.css">
     <title>У Ларисочки - "Услуги"</title>
@@ -20,7 +22,7 @@
     <div class="mainFlexBox">
         <div class="navigationMainBox">
             <div class="headNavigationBox">
-                <div class="menuBlackBackground hide">
+                <div href="#ModalMenu" class="menuBlackBackground hide">
                     <div class="windowMenu">
                         <div class="buttonPosition">
                             <a href="#Close" class="closeButtonMenu">
@@ -37,6 +39,24 @@
                                 <a href="#">Главная</a>
                                 <a href="#">Главная</a>
                             </div>
+                        </div>
+                    </div>
+                </div>
+                <div href="#ModalDiscription" class="menuBlackBackground hide">
+                    <div class="windowMenu">
+                        <div class="buttonPosition">
+                            <a href="#Close1" class="closeButtonMenu">
+                                <span class="rotationSpan1"></span>
+                                <span class="rotationSpan2"></span>
+                            </a>
+                        </div>
+                        <div class="buttonMenuNavigation discriptionPrice">
+                            <h1>НАТАЛЬНАЯ КАРТА</h1>
+                            <span class="spanLine"></span>
+                            <p>
+                                 <title></title>Это персональный гороскоп, который рассчитывается строго по дате, времени и месту рождения. Это своего рода рисунок (снимок) положения планет, запечатленный раз и навсегда.
+                            </p>
+                            <img src="https://i.pinimg.com/originals/33/7f/7e/337f7e87bec0d86e29c5d874429e84f7.jpg" alt="">
                         </div>
                     </div>
                 </div>
@@ -88,7 +108,7 @@
                     <p>Цена: 5000 ₽</p>
                 </div>
                 <div class="podrobnee">
-                    <a href="#">Прдробнее</a>
+                    <a href="#OpenBlock1">Прдробнее</a>
                 </div>
             </div>
         </div>
