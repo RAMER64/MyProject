@@ -50,6 +50,8 @@
     .spanRadius{
         border: 2px solid rgb(140, 0, 255);
         border-radius: 10px;
+        margin-block: 4px;
+        width: 75%;
     }
     .spanBorder{
         border: 2px solid rgb(0, 0, 0);
