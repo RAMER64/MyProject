@@ -3,8 +3,9 @@
 }
 .discriptionPrice img{
     user-select: none;
-    width: 300px;
-    border-radius: 0px 0px 20px 20px;
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 20px 20px 0px 0px;
 }
 .discriptionPrice h1{
     margin-right: 40px;
