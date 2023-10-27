@@ -1,5 +1,5 @@
 .windowMenu1{
-    margin-top: 480px;
+    margin-top: 280px;
     margin-bottom: 20px;
     transition: 0.5s;
     box-shadow: 0 0 20px 5px rgb(128, 0, 255);
@@ -29,31 +29,4 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-}
-.buttonNavigation{
-    width: 80%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-}
-.buttonNavigation a{
-    -webkit-tap-highlight-color: transparent;
-    margin: 10px;
-    text-align: center;
-    height: 50px;
-    width: 100%;
-    text-decoration: none;
-    border-radius: 10px;
-    border: 2px solid rgb(128, 0, 255);
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.buttonNavigation a:hover{
-    color: white;
-    background-color: rgb(128, 0, 255);
 }
