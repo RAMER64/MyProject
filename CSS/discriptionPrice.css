@@ -1,18 +1,21 @@
 .discriptionPrice{
     font-size: 16px;
 }
-.discriptionPrice img{
+.mainImg{
+    background-image: url(https://i.pinimg.com/originals/33/7f/7e/337f7e87bec0d86e29c5d874429e84f7.jpg);
+    background-size: cover;
+    height: 219px;
     user-select: none;
     width: 100%;
     margin-top: 10px;
     border-radius: 20px 20px 0px 0px;
+    display: grid;
+    place-items: center;
+    border-bottom: 2px solid rgb(128, 0, 255);
 }
-.discriptionPrice h1{
-    margin-right: 40px;
+.mainImg h1{
     text-align: left;
     font-size: 25px;
-    margin-top: 55px;
-    margin-bottom: 20px;
 }
 .discriptionPrice p{
     padding: 0px 10px;
