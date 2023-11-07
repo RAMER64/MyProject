@@ -91,6 +91,5 @@ document.addEventListener("DOMContentLoaded", function () {
       numCardLight.classList.toggle("numCardLight");
       numCardLight.classList.toggle("numCard");
     });
-
   }
 });
