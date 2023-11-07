@@ -2,7 +2,6 @@
     font-size: 16px;
 }
 .mainImg{
-    background-image: url(https://i.pinimg.com/originals/33/7f/7e/337f7e87bec0d86e29c5d874429e84f7.jpg);
     background-size: cover;
     height: 219px;
     user-select: none;
@@ -14,8 +13,9 @@
     border-bottom: 2px solid rgb(128, 0, 255);
 }
 .mainImg h1{
-    text-align: left;
+    text-align: center;
     font-size: 25px;
+    padding: 10px;border-radius: 20px;box-shadow: inset -2000px -200px 20px 0px rgb(128 0 255 / 50%), 0px 0px 50px 0px rgb(128, 0, 255);
 }
 .discriptionPrice p{
     padding: 0px 10px;
